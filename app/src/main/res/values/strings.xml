@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">Task Lite</string>
     <string name="String">Task Lite</string>
+    <string name="Login">Login</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="account_creation">Account Creation</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="is_this_an_admin_account">Is this an Admin Account?</string>
+    <string name="welcome">Welcome</string>
+    <string name="is_admin">isAdmin</string>
+    <string name="logout">logout</string>
+    <string name="options">options </string>
+    <string name="textview">TextView</string>
+    <string name="admin_tools">admin_tools</string>
+    <string name="description">Description</string>
+    <string name="high">HIGH</string>
+    <string name="title">Title</string>
+    <string name="todo">TODO</string>
+    <string name="_1">1</string>
 </resources>

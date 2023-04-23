@@ -4,19 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background"
+    android:layout_gravity="center"    >
 
     <TextView
-        android:layout_width="148dp"
-        android:layout_height="61dp"
+        android:id="@+id/header"
+        android:layout_width="331dp"
+        android:layout_height="113dp"
+        android:fontFamily="@font/bebas_neue"
         android:gravity="center"
         android:text="@string/String"
-        android:textSize="34sp"
+        android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.082" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="268dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="159dp"
+        android:text="@string/Login"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
+    <Button
+        android:id="@+id/createAccount"
+        android:layout_width="268dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="159dp"
+        android:textSize="20dp"
+        android:text="@string/CreateAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

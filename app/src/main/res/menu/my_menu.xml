@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="@string/options"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="logout"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/delete_all_notes"
+                android:title="Delete all reminders"
+                app:showAsAction="never"
+                />
+
+            <item
+                android:id="@+id/admin"
+                android:title="DELETE ALL USERS"
+                android:visible="false"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>
